@@ -21,11 +21,6 @@ body {
 
 .poster {
   width: 100%;
-  aspect-ratio: 3 / 4;
-  background-image: url("../img/poster2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   color: white;
 }
 
