@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
 @import "reset.css";
 @import "variables.css";
 
@@ -20,42 +22,54 @@ body {
 .poster {
   width: 100%;
   aspect-ratio: 3 / 4;
-  background-image: url("../img/poster.png");
+  background-image: url("../img/poster2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: white;
 }
 
-.profile {
-  padding: 24px 16px 0px 16px;
+.greetings {
+  text-align: center;
 }
 
-.profile__img {
-  height: 400px;
+.greetings p {
+  line-height: 1.8rem;
 }
-h1 {
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 36px;
+
+.profile {
+  padding: 0px 32px;
+  margin-top: 48px;
+  font-weight: 600;
+}
+.profile img {
+  width: 100%;
+  margin: 16px 0px;
+}
+.profile__box {
+  text-align: center;
+}
+.profile--gold {
+  color: #be9467;
 }
 
 .program {
-  padding: 24px 16px 0px 16px;
+  text-align: center;
 }
 
 .program__text__box {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 .program__text__lg {
-  font-size: 16px;
-  padding-bottom: 15px;
+  line-height: 1.5rem;
 }
 
-.map {
-  padding: 24px 16px 0px 16px;
+.title {
+  font-family: "Allura";
+  color: #be9467;
+  font-size: 48px;
+  padding: 60px 0px 48px 0px;
 }
