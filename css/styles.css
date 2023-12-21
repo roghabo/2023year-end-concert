@@ -17,7 +17,7 @@ body {
   max-width: 480px;
   background-color: var(--red);
   color: white;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 
 .poster {
@@ -68,4 +68,22 @@ body {
   color: #be9467;
   font-size: 48px;
   padding: 60px 0px 48px 0px;
+}
+
+.date {
+  text-align: center;
+}
+
+.date span {
+  font-size: 20px;
+  line-height: 2.5rem;
+}
+
+.location {
+  text-align: center;
+  padding: 0px 16px;
+}
+.location img {
+  width: 100%;
+  margin: 16px 0px;
 }
